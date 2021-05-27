@@ -26,7 +26,7 @@ const router = new ethers.Contract(
   [
     "function getAmountsOut(uint amountIn, address[] memory path) public view returns (uint[] memory amounts)",
     "function swapExactETHForTokens(uint amountOutMin, address[] calldata path, address to, uint deadline) external payable returns (uint[] memory amounts)",
-    "function swapExactETHForTokensSupportingFeeOnTransferTokens(uint amountOutMin, address[] calldata path, address to, uint deadline) external payable returns (uint[] memory amounts)",
+    "function swapExactETHForTokensSupportingFeeOnTransferTokens(uint amountOutMin, address[] calldata path, address to, uint deadline) external payable",
   ],
   account
 );
