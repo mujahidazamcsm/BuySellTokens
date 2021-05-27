@@ -3,8 +3,9 @@
 # Initial Setup
 
 1. Clone repository
-1. Run npm i
-1. Edit env.js
+1. install node js ~v12.4.1
+3. Run npm i
+4. Edit env.js
 
 
 # Buy a token using BNB
