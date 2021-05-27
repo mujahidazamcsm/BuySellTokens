@@ -13,7 +13,7 @@
 1. node buy.js
 
 
-# Sell a token
+# Sell a token receiving BNB
 
 1. node sell.js
 1. ... 
