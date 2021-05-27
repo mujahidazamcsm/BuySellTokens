@@ -5,7 +5,7 @@ Object.assign(process.env, Env);
 
 const ethers = require("ethers");
 
-const sellToken = process.env.PURCHASE_TOKEN;
+const sellToken = process.env.SELL_TOKEN;
 const sellAmount = Ethers.utils.parseUnits(process.env.SELL_AMOUNT, "ether"); // sell in a previously purchased token
 const slippage = process.env.SLIPPAGE;
 
