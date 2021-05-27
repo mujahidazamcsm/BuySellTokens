@@ -10,10 +10,10 @@ const purchaseAmount = Ethers.utils.parseUnits(
   process.env.PURCHASE_AMOUNT,
   "ether"
 ); // buy in BNB
+const slippage = process.env.SLIPPAGE;
 
 const wbnb = "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c";
 const pcs = "0x10ED43C718714eb63d5aA57B78B54704E256024E";
-const slippage = "1";
 
 const provider = new ethers.providers.WebSocketProvider(
   process.env.BSC_NODE_WSS
@@ -51,7 +51,7 @@ async function buy() {
     amountOutMin,
     [wbnb, purchaseToken],
     process.env.RECIPIENT,
-    Date.now() + 1000 * 60 * 10, //10 minutes
+    Date.now() + 1000 * 60 * 5, // 5 minutes
     {
       value: purchaseAmount,
       gasLimit: 345684,
