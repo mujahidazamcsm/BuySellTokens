@@ -11,8 +11,6 @@
 # Buy a token using BNB
 
 1. node buy.js
-1. ... 
-1. profit
 
 
 # Sell a token using BNB
