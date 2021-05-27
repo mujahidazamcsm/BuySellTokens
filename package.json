@@ -1,0 +1,15 @@
+{
+  "name": "BuySellTokens",
+  "version": "0.0.1",
+  "description": "",
+  "dependencies": {
+    "ethers": "^5.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "PhatJay for TheCryptoFarm",
+  "license": "MIT"
+}
